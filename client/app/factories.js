@@ -1,5 +1,5 @@
 var token = window.token;
-console.log("Our token: ", token);
+
 angular.module('costars.factories', [])
 
 .factory("ApiCalls", function($http){
